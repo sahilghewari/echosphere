@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import Categories from './pages/Categories';
 import Chat from './pages/Chat';
 import Login from './components/Login';
-import Signup from './components/Signup';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Profile from './pages/ProfileSetup';
@@ -23,7 +22,6 @@ const App = () => {
             <Route path="/categories" element={<Categories />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
             <Route path="/profile-setup" element={<ProfileWrapper />} />
             <Route path="/search" element={<SearchResults />} />
           </Routes>

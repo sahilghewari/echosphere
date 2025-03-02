@@ -111,7 +111,7 @@ const Home = () => {
         }}
       >
         <div className="absolute inset-0  bg-opacity-50 flex flex-col items-center justify-center">
-          <div className="breaking-news-ticker bg-secondary w-full text-gray-900 py-2">
+          <div className="breaking-news-ticker text-3xl bg-secondary w-full text-gray-900 py-2">
             <marquee>Breaking News: Latest updates on global events...</marquee>
           </div>
           <h1 className="text-7xl text-gray-900 font-bold mb-4">EchoSphere</h1>

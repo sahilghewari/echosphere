@@ -43,7 +43,6 @@ const Navbar = () => {
           ) : (
             <>
               <Link to="/login" className="text-gray-300 hover:text-white">Login</Link>
-              <Link to="/signup" className="text-gray-300 hover:text-white">Signup</Link>
             </>
           )}
         </div>
